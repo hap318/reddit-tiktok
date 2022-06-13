@@ -75,6 +75,9 @@ def getSubmissions():
         num = writeMp3s(myText)
         mergeMp3s(num, submissions[ans].title)
 
+def addTest():
+    pass
+
 
 getSubmissions()
 
